@@ -7,11 +7,11 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(55, 0, 255), white);
 }
 
 main {
-    background-color: white;
+    background-color: rgb(54, 168, 163);
     margin: 20px;
     padding: 25px;
 }
@@ -19,6 +19,7 @@ main {
 h1 {
     margin: 0;
     padding: 25px;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* Controls and Message Styles */
@@ -28,12 +29,14 @@ h1 {
 }
 
 .message-container {
-    color: darkorange;
+    color: rgb(204, 0, 255);
     font-size: 1.5em;
     font-weight: bold;
+    font-family: 'Manrope', sans-serif;
 }
 
 button {
+    font-family: 'Manrope', sans-serif;
     font-size: 1.5em;
     margin-right: 10px;
     border-radius: 10px;
